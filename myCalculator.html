@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>My Calculator </title>
+	<link rel = "stylesheet" type = "text/css" href = "myCalculatorStylesheet.css">
+		
+		
+	<script type = "text/javascript" src = "myCalculatorJS.js"></script>
+</head>
+<body>
+    <div>
+ 	  <input class = "button" type = "button" id="button_seven" value = "7" onclick = "numberButtonAction(this)"/>
+ 	  <input class = "button" type = "button" id="button_eight" value = "8" onclick = "numberButtonAction(this)"/>
+      <input class = "button" type = "button" id="button_nine" value = "9" onclick = "numberButtonAction(this)"/>
+ 	  <input class = "button" type = "button" id="button_multiply" value = "X" onclick = "multiplyButtonDoes(this)"/>
+    </div>
+    <div>
+      <input class = "button" type = "button" id="button_four" value = "4" onclick = "numberButtonAction(this)"/>
+ 	  <input class = "button" type = "button" id="button_five" value = "5" onclick = "numberButtonAction(this)"/>
+      <input class = "button" type = "button" id="button_six" value = "6" onclick = "numberButtonAction(this)"/>
+      <input class = "button" type = "button" id="button_divide" value = "/" onclick = "divideButtonDoes(this)"/>
+    </div>
+    <div>
+ 	  <input class = "button" type = "button" id="button_one" value = "1" onclick = "numberButtonAction(this)"/>
+ 	  <input class = "button" type = "button" id="button_two" value = "2" onclick = "numberButtonAction(this)"/>
+ 	  <input class = "button" type = "button" id="button_three" value = "3" onclick = "numberButtonAction(this)"/>
+      <input class = "button" type = "button" id="button_exponential" value ="^" onclick = "powerofButtonDoes(this)" />
+    </div>
+    <div>
+      <input class = "button" type = "button" id="button_plus" value = "+" onclick = "plusButtonDoes(this)"/>
+      <input class = "button" type = "button" id="button_zero" value = "0" onclick = "numberButtonAction(this)"/>
+      <input class = "button" type = "button" id="button_minus" value = "-" onclick = "minusButtonDoes(this)"/>
+ 	  <input class = "button" type = "button" id="button_equal" value = "=" onclick = "equalButtonDoes()"/>
+    </div>
+    <div class="display-area">
+ 	  <input class = "Screen" type= "text" id = "calculatorScreen" value = "0" />
+   	  <input class = "button clear" type = "button" id="button_clear" value = "C" onclick = "clearCalculatorScreen()" />
+    </div>
+</body>
+</html>

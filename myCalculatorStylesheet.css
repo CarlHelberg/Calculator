@@ -1,0 +1,30 @@
+
+.button{
+	background-color:orange;
+	width:60px;
+	height:60px;
+	text-align: center;
+	font-size: 15px;
+  	position:relative;
+    bottom: 0px;
+}
+
+.Screen{
+	width:182px;
+	height:60px;
+	font-size: 30px;
+    display: inline-block;
+}
+
+.clear {
+  display: inline-block;
+  vertical-align: top;
+  height: 66px;
+}
+
+.display-area {
+  padding-top: 10px;
+}
+
+</style>
+
